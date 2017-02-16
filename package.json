@@ -2,7 +2,7 @@
   "name": "electron-quick-start",
   "version": "0.1.0",
   "description": "Get started with Electron quickly, using webpack, react, hot module reloading, and electron-packager.",
-  "main": "./main.js",
+  "main": "./src/main.js",
   "scripts": {
     "webpack-server": "webpack-dev-server --hot --inline",
     "webpack": "webpack",

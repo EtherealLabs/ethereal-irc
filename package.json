@@ -6,8 +6,8 @@
   "scripts": {
     "webpack-server": "webpack-dev-server --hot --inline",
     "webpack": "webpack",
-    "start": "cross-env HOT=1 electron main.js",
-    "electron": "electron main.js",
+    "start": "cross-env HOT=1 electron src/main.js",
+    "electron": "electron src/main.js",
     "packager": "npm run webpack && electron-packager . MyApp"
   },
   "author": "Ethereal Labs",

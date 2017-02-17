@@ -16,7 +16,7 @@
       const script = document.createElement('script');
       const port = 8080;
       script.src = (process.env.HOT) ? `http://localhost:${port}/build/bundle.js` : '../build/bundle.js';
-      document.write(script.outerHTML);
+      document.body.appendChild(script);
     }
   </script>
 </html>
